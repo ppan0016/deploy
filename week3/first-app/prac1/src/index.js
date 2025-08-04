@@ -13,42 +13,42 @@ root.render(
   </div>
 );
 
-const style = {
-  color: 'red',
-  fontSize: '30px' 
-}
+// const style = {
+//   color: 'red',
+//   fontSize: '30px' 
+// }
 
-const datediv = ReactDOM.createRoot(document.getElementById('newdate'));
+// const datediv = ReactDOM.createRoot(document.getElementById('newdate'));
 
-const trimester = "T2";
-var d = new Date();
-const year = d.getFullYear();
+// const trimester = "T2";
+// var d = new Date();
+// const year = d.getFullYear();
 
+// // datediv.render(
+// //   <h3 style={style}>
+// //     The current Trimester is : {trimester} {year}
+// //   </h3>
+// // );
+
+// // component
 // datediv.render(
-//   <h3 style={style}>
-//     The current Trimester is : {trimester} {year}
-//   </h3>
+//  <HeaderComponent />
 // );
 
-// component
-datediv.render(
- <HeaderComponent />
-);
 
+// const logo = ReactDOM.createRoot(document.getElementById('logo'));
 
-const logo = ReactDOM.createRoot(document.getElementById('logo'));
+// logo.render(
+//   <div>
+//     {/* <img src="./logo192.png" alt="Basic Logo"/> */}
+//     <LogoImage /> 
+//      {/* <img src="./logo512.png" alt="Basic Logo"/> */}
+//   </div>
+// );
 
-logo.render(
-  <div>
-    {/* <img src="./logo192.png" alt="Basic Logo"/> */}
-    <LogoImage /> 
-     {/* <img src="./logo512.png" alt="Basic Logo"/> */}
-  </div>
-);
-
-// //creating a component
-function HeaderComponent(){
-  return(<h3 style={style}>
-    The current Trimester is : {trimester} {year}
-  </h3>)
-}
+// // //creating a component
+// function HeaderComponent(){
+//   return(<h3 style={style}>
+//     The current Trimester is : {trimester} {year}
+//   </h3>)
+// }
