@@ -1,0 +1,11 @@
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+     Basic app
+    </div>
+  );
+}
+
+export default App;
